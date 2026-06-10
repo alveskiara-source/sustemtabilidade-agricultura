@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agricultura Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>AgroVerde</h1>
+        <p>Cultivando o futuro com respeito à natureza</p>
+    </header>
+
+    <main class="container">
+        <section class="card">
+            <h2>Práticas Sustentáveis</h2>
+            <p>A agricultura sustentável preserva o meio ambiente, garante a segurança alimentar e protege a biodiversidade através de técnicas que respeitam os ciclos naturais.</p>
+            <ul>
+                <li>🌱 Rotação de culturas</li>
+                <li>💧 Uso eficiente da água</li>
+                <li>🪱 Adubação orgânica</li>
+            </ul>
+        </section>
+
+        <section class="card simulador">
+            <h2>Simulador de Impacto</h2>
+            <p>Escolha uma prática para ver o benefício ambiental:</p>
+            <div class="botoes-acoes">
+                <button class="btn-pratica" data-impacto="Economiza até 40% de água e evita o esgotamento dos nutrientes do solo.">Rotação de Culturas</button>
+                <button class="btn-pratica" data-impacto="Reduz em 60% o desperdício de água diretamente na raiz da planta.">Gotejamento Eficiente</button>
+                <button class="btn-pratica" data-impacto="Elimina a contaminação química do solo e protege polinizadores como as abelhas.">Defensivos Orgânicos</button>
+            </div>
+            <div id="resultado" class="escondido">
+                <h3>Resultado:</h3>
+                <p id="texto-resultado"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 AgroVerde - Futuro Sustentável</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
